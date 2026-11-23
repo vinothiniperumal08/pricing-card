@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Pricing Plans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="pricing-section">
+
+        <h1>Simple & Transparent Pricing</h1>
+        <p class="subtitle">Choose the perfect plan for your needs</p>
+
+        <div class="toggle">
+            <span>Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="billingToggle">
+                <span class="slider"></span>
+            </label>
+            <span>Yearly</span>
+            <span class="discount">Save 20%</span>
+        </div>
+
+        <div class="pricing-container">
+
+            <!-- Starter Plan -->
+            <div class="card">
+                <h2>Starter</h2>
+                <p>Perfect for beginners</p>
+
+                <h3 class="price" data-month="9" data-year="86">
+                    $9 <span>/month</span>
+                </h3>
+
+                <ul>
+                    <li>✔ 5 Projects</li>
+                    <li>✔ Basic Analytics</li>
+                    <li>✔ Email Support</li>
+                    <li>✔ 5 GB Storage</li>
+                </ul>
+
+                <button>Get Started</button>
+            </div>
+
+            <!-- Pro Plan -->
+            <div class="card popular">
+                <div class="badge">Popular</div>
+                <h2>Pro</h2>
+                <p>Perfect for growing teams</p>
+
+                <h3 class="price" data-month="19" data-year="182">
+                    $19 <span>/month</span>
+                </h3>
+
+                <ul>
+                    <li>✔ Unlimited Projects</li>
+                    <li>✔ Advanced Analytics</li>
+                    <li>✔ Priority Support</li>
+                    <li>✔ 50 GB Storage</li>
+                </ul>
+
+                <button>Get Started</button>
+            </div>
+
+            <!-- Enterprise Plan -->
+            <div class="card">
+                <h2>Enterprise</h2>
+                <p>Perfect for large businesses</p>
+
+                <h3 class="price" data-month="49" data-year="470">
+                    $49 <span>/month</span>
+                </h3>
+
+                <ul>
+                    <li>✔ Unlimited Projects</li>
+                    <li>✔ Custom Analytics</li>
+                    <li>✔ 24/7 Support</li>
+                    <li>✔ Unlimited Storage</li>
+                </ul>
+
+                <button>Get Started</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
